@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#logo{
+  height: 55px;
+}
+#logoText{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
+  
+}
+.container{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+header{
+
+  font-family: "Roboto Condensed", sans-serif;
+ padding-bottom: 0.75rem;
+ padding-top: .55rem;
+ background-color: rgb(140, 136, 136); 
+ background-image: linear-gradient(rgb(240, 234, 234), #0d5e84c9); 
+ border-bottom: solid black 1px;
+}
