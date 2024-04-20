@@ -1,3 +1,5 @@
+import MyFooter from "../components/myFooter";
+
 export default function Root(){
   return(
 <>
@@ -10,7 +12,7 @@ export default function Root(){
   <img id="logo" src="./image/logo.png" alt />
 </div>
 </header>
-<footer></footer>
+<MyFooter/>
 
 
 
